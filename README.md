@@ -1,45 +1,17 @@
 # 5005_Project
 
-## Project Title: Dimensionality Reduction and Clustering of AML RNA-seq Data Using Autoencoders
+## Project Title: Leveraging Deep Learning for Subtype Identification and Biomarker Discovery in AML
 
 ### Project Proposal 
-This project aims to leverage autoencoders, a deep learning technique, for the dimensionality reduction of RNA-seq data from AML patients, facilitating the identification of inherent gene expression patterns and potential subtypes within the data through unsupervised clustering.
+This project aims to utilize advanced deep learning techniques to analyze RNA-seq data from AML patients, identifying distinct molecular subtypes and key biomarkers, thereby facilitating the development of personalized therapeutic strategies.
 
-## Process
-
-Utilize a deep learning autoencoder for dimensionality reduction of RNA-seq data from AML patients to a lower-dimensional space, facilitating the identification of inherent patterns or clusters within the data.
-
-Steps to Complete the Project
-
-**Day 1:** Project Setup and Data Preprocessing
-
-Prepare your environment (e.g., Python with TensorFlow or PyTorch).
-Preprocess the RNA-seq data (normalization, filtering).
-
-**Day 2-3:** Implementing the Autoencoder
-
-**Day 2:** Design a simple autoencoder architecture suitable for your dataset. The focus will be on creating a model that can compress the high-dimensional RNA-seq data to a lower-dimensional representation.
-
-**Day 3:** Train the autoencoder on your RNA-seq data. This involves feeding the normalized gene expression data into the model, adjusting parameters as necessary to improve the learning process.
-
-**Day 4:** Dimensionality Reduction and Data Visualization
-
-Use the trained autoencoder to reduce the dimensionality of your RNA-seq data. Extract the encoder part of the network to get the compressed representation of your data.
-Visualize the reduced data using PCA or t-SNE to observe any natural clustering or patterns.
-
-**Day 5:** Clustering on Reduced Data
-
-Apply a clustering algorithm (e.g., K-means, hierarchical clustering) to the lower-dimensional data to identify distinct groups of samples.
-Analyze the clusters to see if they reveal any interesting patterns or potential subtypes within the AML samples.
-
-**Day 6:** Biological Interpretation
-
-Perform preliminary analysis to understand the biological significance of the clusters. This might involve identifying hallmark genes in each cluster and exploring their known associations with AML or related processes.
-
-**Day 7:** Reporting and Future Directions
-
-Compile your findings into a concise report or presentation. Highlight the methodology, the ML/DL models used, the results from the clustering, and any biological insights gained.
-Suggest future directions for expanding the analysis, such as integrating additional datasets, exploring other ML/DL models, or conducting experimental validation.
+### Subtype Identification and Characterization with Deep Learning
+- Autoencoders: An unsupervised deep learning approach, autoencoders can reduce the dimensionality of RNA-seq data, capturing the most salient features in a lower-dimensional space. The reduced feature set can then be used for clustering, making it easier to identify distinct AML subtypes.
+- Clustering on Embedded Space: After dimensionality reduction, deep learning-based clustering techniques, such as deep embedded clustering, can be applied to the encoded representations to identify distinct patient groups representing different AML subtypes.
+- Convolutional Neural Networks (CNNs): Although traditionally used for image data, CNNs can also be applied to sequence and expression data, capturing local patterns within the data that might signify subtype-specific expression profiles.
+### Biomarker Discovery for AML with Deep Learning
+- Feature Importance: Deep learning models, especially those with attention mechanisms, can highlight which genes (features) are most informative for subtype classification. These key features can serve as potential biomarkers.
+- Supervised Learning: Once subtypes are established, supervised deep learning models can be trained to predict the subtype based on gene expression, with the model learning to focus on genes that best distinguish between subtypes. Techniques like SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model-agnostic Explanations) can then be used to interpret these models and identify the most important features (genes) used for classification.
 
 # Dataset Access
 
