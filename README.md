@@ -5,7 +5,7 @@
 ### Project Proposal 
 This project aims to utilize advanced deep learning techniques to analyze RNA-seq data from AML patients, identifying distinct molecular subtypes and key biomarkers, thereby facilitating the development of personalized therapeutic strategies.
 
-(not confimred just an idea to follow)
+*** (The following text below is not confimred just an idea to follow)
 ### Subtype Identification and Characterization with Deep Learning
 - Autoencoders: An unsupervised deep learning approach, autoencoders can reduce the dimensionality of RNA-seq data, capturing the most salient features in a lower-dimensional space. The reduced feature set can then be used for clustering, making it easier to identify distinct AML subtypes.
 - Clustering on Embedded Space: After dimensionality reduction, deep learning-based clustering techniques, such as deep embedded clustering, can be applied to the encoded representations to identify distinct patient groups representing different AML subtypes.
