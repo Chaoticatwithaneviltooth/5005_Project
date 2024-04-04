@@ -1,4 +1,6 @@
 .venv/
+.DS_Store
+
 # Build and Release Folders
 bin-debug/
 bin-release/
