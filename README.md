@@ -12,7 +12,9 @@ This project aims to utilize advanced deep learning techniques to analyze RNA-se
 
 - Affymetrix Human Genome U133 Plus 2.0 Array -> [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570](url)
 
-# Resources
+# Presentation
+
+
+
 
 - Preprocessing and Annotation of GEO Dataset -> [https://www.youtube.com/watch?v=9MqN06qCxGw](url)
-- 
