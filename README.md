@@ -3,7 +3,7 @@
 ## Project Title: Leveraging Deep Learning for Subtype Identification and Biomarker Discovery in AML
 
 ### Project Proposal 
-This project aims to utilize advanced deep learning techniques to analyze RNA-seq data from AML patients, identifying distinct molecular subtypes and key biomarkers, thereby facilitating the development of personalized therapeutic strategies.
+This project aims to utilize supervised machine learning models and deep learning techniques to analyze RNA-seq data from AML patients, identifying distinct molecular subtypes and key biomarkers, thereby facilitating the development of personalized therapeutic strategies.
 
 
 # Dataset Access
