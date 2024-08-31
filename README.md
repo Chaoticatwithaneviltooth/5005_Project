@@ -15,6 +15,5 @@ This project aims to utilize advanced deep learning techniques to analyze RNA-se
 # Presentation
 
 
-
-
-- Preprocessing and Annotation of GEO Dataset -> [https://www.youtube.com/watch?v=9MqN06qCxGw](url)
+[Project Slides
+](https://github.com/Chaoticatwithaneviltooth/5005_Project/blob/main/Analysis%20of%20AML%20Subtypes%20Through%20Supervised%20and%20Unsupervised%20Machine%20Learning.pdf)
